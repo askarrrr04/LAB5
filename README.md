@@ -9,7 +9,11 @@ function calculateBMI(weight, height) {
   return bmi.toFixed(2);
 }
 
+<<<<<<< HEAD
 function getBMIStatus1(bmi) {
+=======
+function getBMI(bmi) {
+>>>>>>> bdbf3302bc7beaafd1abd780eb05b727f5ce459d
   if (bmi < 18.5) {
     return "Your BMI is " + bmi + ", which means you are underweight.";
   } else if (bmi >= 18.5 && bmi <= 24.9) {
